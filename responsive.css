@@ -1,0 +1,199 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+@media (max-width:985px){
+    .navbar{
+        flex-direction: column;
+    }
+}
+@media (max-width:910px){
+    .all4info{
+        flex-direction: column;
+    }
+    .only2info{
+        width: 100%;
+    }
+    .imgandinfo{
+        flex-direction: column;
+    }
+    .widthofimg{
+        width: 100%;
+    }
+    .infoofabout{
+        margin-top: 30px;
+    }
+    .allaboutbars{
+        flex-direction: column;
+    }
+    .bars1{
+        width: 100%;
+    }
+    .all4boxes{
+        flex-direction: column;
+    }
+    .all2boxes{
+        width: 100%;
+    }
+}
+@media (max-width:830px){
+    .first3boxes{
+        flex-direction: column;
+    }
+    .oneboxdata{
+        width: 100%;
+    }
+    .allteamimgdata{
+        flex-direction: column;
+    }
+    .team2imgdata{
+        width: 100%;
+    }
+    .pricing4boxes{
+        flex-direction: column;
+    }
+    .pricing2boxes{
+        margin-top: 20px;
+        margin-bottom: 40px;
+        width: 100%;
+    }
+    .allblacksection{
+        flex-wrap: wrap;
+    }
+    .bizlandblack{
+        width: 50%;
+    }
+    .usefullinks{
+        width: 50%;
+    }
+    .wholenavbar{
+        margin-top: 30px;
+        justify-content: center;
+    }
+    .home a{
+        margin-left: 0px;
+    }
+
+}
+@media (max-width:720px){
+    .contactandicons{
+        flex-direction: column;
+    }
+    .contactandphone{
+        justify-content: center;
+    }
+    .firstrowicons{
+        justify-content: center;
+    }
+    .contact3boxes{
+        flex-wrap: wrap;
+    }
+    .firstcontactbox{
+        width: 100%;
+    }
+    .secondcontactbox{
+        width: 48%;
+    }
+    .contact2boxes{
+        flex-wrap: wrap;
+    }
+    .mapbox{
+        width: 100%;
+    }
+    .inputbox{
+        margin-top: 40px;
+        width: 100%;
+    }
+}
+@media (max-width:570px){
+    .Menu-bar {
+        display: block;
+      }
+      .wholenavbar{
+          display: none;
+      }
+      .only2info{
+          flex-wrap: wrap;
+      }
+      .for1info{
+          width: 100%;
+      }
+      .all2boxes{
+          flex-wrap: wrap;
+      }
+      .happyclients{
+          width: 100%;
+      }
+      .team2imgdata{
+          flex-wrap: wrap;
+      }
+      .teamimgdata{
+          width: 100%;
+      }
+      .teamimg {
+        height: 450px;
+    }
+    .pricing2boxes{
+        flex-wrap: wrap;
+    }
+    .pricebox{
+        margin-bottom: 30px;
+        width: 100%;
+    }
+    .sendmsg {
+        margin-bottom: 40px;
+    }
+    .findout {
+        text-align: center;
+    }
+    .checkout {
+        text-align: center;
+    }
+}
+@media (max-width:445px){
+    .contactandphone{
+        display: block;
+    }
+    .contact{
+        justify-content: center;
+    }
+    .phone{
+        justify-content: center;
+    }
+    .bizlandblack{
+        margin-bottom: 30px;
+        text-align: center;
+        justify-content: center;
+        width: 100%;
+    }
+    .street{
+        width: 100%;
+    }
+    .usefullinks{
+        text-align: center;
+        justify-content: center;
+        width: 100%;
+    }
+    .allblackicons{
+        justify-content: center;
+    }
+}
+@media (max-width:355px){
+    .carousel-item {
+        height: 400px;
+    }
+    .secondcontactbox{
+        width: 100%;
+    }
+}
+@media (max-width:280px){
+    .Menu-barIcon {
+        flex-direction: column;
+        width: 12%;
+    }
+    .joinournewsletter {
+        text-align: center;
+    }
+    
+}
